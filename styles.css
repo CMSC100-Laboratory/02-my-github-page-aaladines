@@ -443,7 +443,7 @@ nav a:hover {
 
 /* footer properties */
 #footer-container{
-    border-top:1px solid rgb(3, 3, 3);
+    border-top:1px solid rgb(255, 255, 255);
     background: transparent;
     display: flex;
     align-items: center;
