@@ -1,15 +1,18 @@
 /* ======================= general formats ============== */
 
+/* general font style */
 .rubik-regular-400 {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
 }
 
-body,p {
+/* body layout */
+body {
   font-family: 'Rubik';
   color:white;
 }
 
+/* background image */
 #background {
     background-image: url(img/images/bg.png);
     background-attachment:fixed; 
@@ -20,6 +23,7 @@ body,p {
     padding: 0;
 }
 
+/* properties when the buttons are clicked on the nav bar */
 .profile-flex-container, 
 .about-flex-container, 
 .skills-flex-container, 
@@ -33,12 +37,12 @@ body,p {
     min-height: 85vh; /*covers at least 80% of the screen*/
 }
 
-/* makes ... */
+/* put a space for the title header*/
 section,#about,#skills,#projects,#contact {
     scroll-margin-top: 90px;
 }
 
-
+/* propeties of the titles */
 .title, #about, #skills, #projects, #contact {
     background: linear-gradient(to right, #5ba2e4, #1166e5);
     background-clip: text;
@@ -50,6 +54,14 @@ section,#about,#skills,#projects,#contact {
     margin-bottom: 20px; 
 }
 
+/* sets bakckground color for the flex boxes */
+.about-card, .about-box.small-box, #programming-card, #goals-card {
+    background-color: rgba(39, 31, 59, 0.65);
+    padding: 15px; 
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
 /* works on mobile */
 @media (max-width: 768px) {
     #small-box-card, #profile-flex {
@@ -58,6 +70,8 @@ section,#about,#skills,#projects,#contact {
 }
 
 /*===================== header section /*===================== */
+
+/* contains the navbar */
 .navbar-container{
     background-color: rgba(30, 24, 46, 0.98);
     position: sticky;
@@ -69,12 +83,15 @@ section,#about,#skills,#projects,#contact {
     align-items: center;
 }
 
+/* contains the header */
 #header-text-container {
     display: flex;
     justify-content: right;
     align-items: center;
     margin-right: 25px;
 }
+
+/* nav properties */
 nav a{
     color: white;
     text-decoration: none;
@@ -89,6 +106,7 @@ nav a:hover {
     justify-content: center;
     border-radius: 10px;
 }
+
 #nav-logo {
     width: 50px;
     height: 50x;
@@ -98,11 +116,14 @@ nav a:hover {
 
 /* ================== profile picture section ================== */
 
+/* profile container */
 .profile-flex-container {
     display: flex;
     flex-wrap:wrap;
     min-height: 85vh; /*covers at least 80% of the screen*/
 }
+
+/* profile image */
 #profile-picture {
     width: 300px;
     height: 300px;
@@ -127,6 +148,7 @@ nav a:hover {
     font-weight:500;
 
 }
+
 .profile-actions {
     display: flex;     
     margin-left: 15px;        
@@ -134,6 +156,7 @@ nav a:hover {
     justify-content: flex-start; 
 }
 
+/* button properties */
 .btn {
     display: inline-block;
     padding: 10px 25px;
@@ -151,9 +174,12 @@ nav a:hover {
 }
 
 /* ================================== about section ================================== */
+
 #about{
     margin-bottom:50px;
 }
+
+/* flex container for the about section */
 #about-flex-container {
     display: flex;
     flex-direction: column;
@@ -166,12 +192,6 @@ nav a:hover {
     padding:20px;
 }
 
-.about-card, .about-box.small-box, #programming-card, #goals-card {
-    background-color: rgba(39, 31, 59, 0.65);
-    padding: 15px; 
-    border-radius: 20px;
-    box-sizing: border-box;
-}
 
 #small-box-card {
     display: flex;
@@ -215,6 +235,7 @@ nav a:hover {
 
 /*============================= skills section ========================= */
 
+/* sets propeties of the skills flex box */
 #skills-flex-container {
     display: flex;
     flex-wrap: wrap;      
@@ -227,6 +248,7 @@ nav a:hover {
     margin-bottom:100px;
 }
 
+/* skills card properties  */
 .skills-card {
     background-color: rgba(39, 31, 59, 0.65);
     border-radius: 20px;
@@ -262,6 +284,8 @@ nav a:hover {
 }
 
 /*============================= projects section ========================= */
+
+/* properties of the projects flex box */
 #projects-flex-container {
     display: flex;
     flex-wrap: wrap;  
@@ -273,6 +297,7 @@ nav a:hover {
     color:white;
 }
 
+/* project card properties */
 .project-card {
     background-color: rgba(39, 31, 59, 0.65);
     border-radius: 20px;
@@ -314,6 +339,7 @@ nav a:hover {
     margin-left:10px;
 } 
 
+/* adds styling for the button to view projects */
 .view-code-link {
     display: inline-block;
     display:flex;
@@ -347,6 +373,8 @@ nav a:hover {
 }
 
 /* =============== contact section ==================== */
+
+/* sets properties of the contact flex box */
 #contact-flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -359,6 +387,7 @@ nav a:hover {
     margin-bottom: 45px ;
 }
 
+/* contact card properties */
 .contact-card {
     background-color: rgba(39, 31, 59, 0.65);
     border-radius: 20px;
@@ -412,9 +441,9 @@ nav a:hover {
 
 /* ================= footer section ==================== */
 
+/* footer properties */
 #footer-container{
-
-    border-top:1px solid white;
+    border-top:1px solid rgb(3, 3, 3);
     background: transparent;
     display: flex;
     align-items: center;
@@ -435,13 +464,6 @@ nav a:hover {
     display:block;
     align-items: center;
 }
-
-@media (max-width: 768px) {
-    html {
-        font-size: 20px; /* bigger text on phones */
-    }
-}
-
 
 
 
