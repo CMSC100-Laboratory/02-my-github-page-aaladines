@@ -436,6 +436,12 @@ nav a:hover {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    html {
+        font-size: 20px; /* bigger text on phones */
+    }
+}
+
 
 
 
