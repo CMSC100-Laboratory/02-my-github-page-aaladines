@@ -28,13 +28,12 @@ Figure 4: Clone and modify your remote repository
 
 Create an index.html file in your local repository and push it to your GitHub repository. The index.html  
 file will be the first page rendered in the root directory of your website.  
-See what I pushed something here: https://cmsc100-laboratory.github.io/02-my-github-page-carlodb/  
 
 Step 3: Change the visibility of your Git repository to public, then configure GitHub Pages through the settings  
 by selecting which part of the branch you will use to host your static website.  
 
 Key Takeaways:  
-I was about to learn how to use flexbox properly for my website to look nicer.  
+I was about to learn how to use flexbox properly for my website to look nicer. 
 
 
 **References**:
