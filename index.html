@@ -1,0 +1,311 @@
+<!--
+ @author: Angelo Gabriel A. Ladines
+ @section: CMSC 100 C-1L
+ @description: An html website that shows the author's portpolio
+ @date: 2026-02-08
+-->
+
+<!DOCTYPE html>
+
+<head>
+    <title>My Portfolio</title>
+    <!-- adds font -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body id="background">
+
+    <!-- nav bar section -->
+    <nav class ="navbar-container">
+        <img src="img/logos/my_logo.png" alt="logo" id="nav-logo">
+
+        <div id="header-text-container">
+            <a href="#about" class="nav-text">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        
+    </nav>
+
+
+    <!-- profile picture section -->
+    <div class="profile-flex-container">
+        <div class="profile-image-wrapper">
+            <img src="img/images/me.png" alt="Angelo Ladines" id="profile-picture">
+        </div>
+
+        <div class="profile-content">
+            <h1 class="title"id="my-name">Angelo Gabriel A. Ladines</h1>
+            <p id="deg-proj">BS Computer Science Student</p>
+            <div class="profile-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section -->
+
+    <section class="block">
+        <p class="title" id="about">Autobiography</p>
+
+        <div id="about-flex-container">
+            <div class="about-card">
+                <div id="hello-card">
+                    <p class="auto-title">Hello World! My name is Gabby!</p>
+                    <p class="auto-text">
+                        I am a BS Computer Science student that continues to love coding as I begin to learn various programming concepts. 
+                        I enjoy creating programs that solve real life problems. Although I have made only a few projects during my stay in the university, 
+                        I want to improve this by creating more projects to improve my skills in this field.
+                        <br><br>
+                        Frontend is not my specialty as I am not accustomed to creating designs, and throughout my CMSC 100 journey, I hope to strengthen this skill.
+                    </p>
+                </div>
+            </div>
+
+            <div id="small-box-card">
+                
+                <div id="education-card">
+                    <div class="about-box small-box">
+                        <p class="auto-title">Education</p>
+                        <p class="auto-text">
+                            College<br>
+                            <strong>University of the Philippines - Los Baños</strong><br>
+                            2024 – present<br><br>
+                            
+                            Junior / Senior High School<br>
+                            <strong>Southern Luzon State University - Laboratory School</strong><br>
+                            2018 – 2024<br><br>
+                            
+                            Elementary<br>
+                            <strong>Sampaloc Elementary School - Main</strong><br>
+                            2012 - 2018
+                        </p>
+                    </div>
+                </div>
+
+                <div id="smaller-box-card">
+                    <div id="programming-card" class="about-card">
+                        <p class="auto-title">Programming Experience</p>
+                        <p class="auto-text">
+                            I have been learning to code for the past <strong>2 years</strong>, constantly trying to improve my skills 
+                            by trying different programming languages while learning the fundamentals at the same time.
+                        </p>
+                    </div>
+
+                    <div id="goals-card" class="about-card">
+                        <p class="auto-title">Goals</p>
+                        <ul class="auto-text">
+                            <li>be able to create mobile applications</li>
+                            <li>be proficient in web frameworks, particularly MERN</li>
+                            <li>create useful programs that benefit society</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </section>
+
+    <!-- skills section -->
+    <section>
+        <p class="auto-title" id="skills">Skills</p>
+
+        <div id="skills-flex-container">
+            <div class="skills-card">
+                <img src="img/logos/c.png" alt="c logo" class="skills-logo">
+                <p class="skills-text">
+                    <strong>C</strong> is often used to create programs that need to run fast and work closely with the computer.
+                </p>
+            </div>
+            
+            <div class="skills-card">
+                <img src="img/logos/python.png" class="skills-logo" alt="python">
+                <p class="skills-text">
+                    <strong>Python</strong> is used for server-side web development, software development, mathematics, and system scripting.
+                </p>
+            </div>
+
+            <div class="skills-card">
+                <img src="img/logos/js.png" class="skills-logo" alt="javascript">
+                <p class="skills-text">
+                    <strong>JavaScript</strong> is a scripting or programming language that allows you to implement complex features on web pages.
+                </p>
+            </div>
+
+            <div class="skills-card">
+                <img src="img/logos/css.png" class="skills-logo" alt="css">
+                <p class="skills-text">
+                    <strong>CSS</strong> is used to define styles for your web pages, including the design, layout and variations.
+                </p>
+            </div>
+
+            <div class="skills-card">
+                <img src="img/logos/java.svg" id="java-logo" class="skills-logo" alt="java">
+                <p class="skills-text">
+                    <strong>Java</strong> is used for data processing engines that can work with complex data sets.
+                </p>
+            </div>
+
+            <div class="skills-card">
+                <img src="img/logos/r.png" class="skills-logo" alt="r">
+                <p class="skills-text">
+                    <strong>R</strong> is a language and environment for statistical computing and graphics.
+                </p>
+            </div>
+
+            <div class="skills-card">
+                <img src="img/logos/html.svg" class="skills-logo" alt="html">
+                <p class="skills-text">
+                    <strong>HTML</strong> is the standard markup language for creating Web pages.
+                </p>
+            </div>
+
+            <div class="skills-card">
+                <img src="img/logos/flutter.png" class="skills-logo" alt="flutter">
+                <p class="skills-text">
+                    <strong>Flutter</strong> is an open source framework for building multi-platform applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <section>
+        <p class="auto-title" id="projects">Projects</p>
+
+        <div id="projects-flex-container">
+            <div class="project-card">
+                <img src="img/images/simplex.png" class="project-img">
+                <p class="project-text">
+                    <strong>Pollution Mitigation Project Solver</strong> is a program made in <strong>Python</strong> with <strong>Flet</strong> for the GUI. 
+                    This project determines the optimal mix of projects that exceeds the city&#39s mandated reduction targets for 
+                    ten major pollutants while minimizing expenditure by using the Simplex method.
+                </p>
+
+                <div class="view-code-link">  
+                    <a href="https://github.com/Gelo005/CMSC-150-Project" target="_blank" id="view-code">
+                            <img src="img/icons/git.png" id="view-code-icon">
+                            <p id="view-code-text"> View Code</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/images/planner.png" class="project-img">
+                <p class="project-text">
+                    <strong>I-Plan</strong> is a registration planner for ICS that is made with <strong>JavaFx</strong>.
+                    This program allows the user to add courses to the calendar for then 
+                    to easily visualize the possible schedules. It filters possible schedule conflicts 
+                    and it also allows the user to save their progress.
+                </p>
+
+                <div class="view-code-link">  
+                    <a href="https://github.com/Gelo005/CMSC-22-Project" target="_blank" id="view-code">
+                            <img src="img/icons/git.png" id="view-code-icon">
+                            <p id="view-code-text"> View Code</p>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <img src="img/images/quiz.png" class="project-img">
+                <p class="project-text">
+                    <strong>Who Wants to be a Wizard</strong> is a terminal-based quiz game made with <strong>Python</strong>.  This is program asks randomly selected 
+                    questions with three levels of difficulty, namely: easy, average, and difficult. It also as lifelines that allows 
+                    users to have a better chance of scoring highly.
+                </p>
+
+                    <div class="view-code-link">  
+                    <a href="https://github.com/Gelo005/CMSC-12-Project" target="_blank" id="view-code">
+                            <img src="img/icons/git.png" id="view-code-icon">
+                            <p id="view-code-text"> View Code</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/images/clash.png" class="project-img">
+                <p class="project-text">
+                    <strong>Clash of Clans Base Viewer</strong> is the very first coding project that I made with <strong>HTML</strong> and <strong>CSS</strong>.  
+                    This website allows users to view various town hall base layouts for different townhall levels
+                    for them to defend their bases from attackers.
+                </p>
+                
+                <div id="view-code-site">
+                    <div class="view-code-link">  
+                        <a href="https://github.com/Gelo005/First-HTML-Project-2023" target="_blank" id="view-code">
+                                <img src="img/icons/git.png" id="view-code-icon">
+                                <p id="view-code-text"> View Code</p>
+                        </a>
+                    </div>
+
+                    <div class="view-code-link">  
+                        <a href="https://gelo005.github.io/First-HTML-Project-2023/" target="_blank" id="view-code">
+                                <img src="img/logos/html.svg" id="view-code-icon">
+                                <p id="view-code-text"> View Website</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section>
+        <p class="auto-title" id="contact">Contact</p>
+
+        <div id="contact-flex-container">
+            <div class="contact-card">
+
+                 <!-- contact details --> 
+                <div class="contact-details">
+                    <img src="img/icons/email.png" class="contact-logo-icon">
+                    <p class="contact-text">aaladines@up.edu.ph</p>
+                    
+                </div>
+
+                <div class="contact-details">
+                    <img src="img/icons/fb.png" class="contact-logo-icon">
+                    <p class="contact-text">angelogabby.ladines</p>
+                </div>
+
+                <div class="contact-details">
+                    <img src="img/icons/git.png" class="contact-logo-icon">
+                    <p class="contact-text">aaladines</p>
+                </div>
+
+                <!-- SUPPORT -->
+                <p id="support-text">Support Me</p>
+
+                <div class="qr-container">
+                    <div class="qr-card">
+                        <img src="img/images/maya.png" class="qr-logo">
+                        <p class="contact-text">Maya</p>
+                    </div>
+
+                    <div class="qr-card">
+                        <img src="img/images/GCash.jpg" class ="qr-logo">
+                        <p class="contact-text">GCash</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+    <nav id ="footer-container" >
+        <img src="img/logos/my_logo.png" alt="logo" id="nav-logo">
+
+        <div id="footer-text">
+            <p>Angelo Gabriel A. Ladines<br>@2026 | All rights reserved</p>
+        </div>
+        
+    </nav>
+
+</body>
